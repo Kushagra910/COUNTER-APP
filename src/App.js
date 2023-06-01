@@ -23,7 +23,7 @@ function App() {
         <div className="font-bold gap-12 text-5xl">{count}</div>
         <button onClick={IncrementHandler} className="border-l-2 border-white text-center w-20 text-5xl">+</button>
       </div>
-      <button onClick={reset} className="bg-white px-5 py-2 rounded-md font-bold hover:bg-red-500 transition-all duration-300 hover:text-white">Reset</button>
+      <button onClick={reset} className="bg-white px-5 py-2 rounded-md font-bold hover:bg-red-500 transition-all duration-300 hover:text-white active:bg-lime-500">Reset</button>
     </div>
   );
 }
